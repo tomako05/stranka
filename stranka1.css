@@ -1,0 +1,21 @@
+h1 {
+    color: red;
+    
+  }
+h2 {
+    color: pink;
+    
+  }
+
+
+body {
+    background-color: #3876BF;
+    color: white;
+  }
+
+@media (max-width: 768px) {
+    /* prípadné zmeny štýlov pre menšie obrazovky */
+    body {
+        font-size: 14px; /* menšie písmo pre menšie obrazovky */
+    }
+}
